@@ -1,5 +1,3 @@
-// tailwind.config.js
-
 /** @type {import('tailwindcss').Config} */
 const path = require('path');
 
@@ -27,5 +25,6 @@ module.exports = {
   },
   plugins: [
     require('flowbite/plugin'),
+    require('daisyui'), // Add DaisyUI plugin here
   ],
 }

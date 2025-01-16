@@ -21,16 +21,20 @@ const Home = () => {
   >
     <div className="max-w-xl text-center ltr:sm:text-left rtl:sm:text-right">
       <h1 className="text-3xl font-extrabold text-white sm:text-5xl">
-        Let us find your
+        {/* Let us find your */}
 
         <strong className="block font-extrabold text-rose-500 overflow-hidden inline-block border-r-4 animate-typewriter">
-        Forever Home.
+        ZURU TOURS
       </strong>
       </h1>
 
       <p className="mt-4 max-w-lg text-white sm:text-xl/relaxed">
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nesciunt illo tenetur fuga ducimus
-        numquam ea!
+          Discover the World with Zuru Tours
+          🌍 Your Gateway to Unforgettable Adventures!
+          Embark on a journey of a lifetime—explore breathtaking destinations, immerse yourself in vibrant cultures, and create memories that last forever.
+          Let us guide you to your next great escape.
+          
+          Ready to explore?
       </p>
 
       <div className="mt-8 flex flex-wrap gap-4 text-center">
@@ -42,7 +46,7 @@ const Home = () => {
         </a>
 
         <a
-          href="#"
+          href="/login"
           className="block w-full rounded bg-white px-12 py-3 text-sm font-medium text-rose-600 shadow hover:text-rose-700 focus:outline-none focus:ring active:text-rose-500 sm:w-auto"
         >
           Login
@@ -54,13 +58,12 @@ const Home = () => {
 <CarouselComponent />
 <div className="mx-auto max-w-screen-xl px-4 py-8 sm:px-6 sm:py-12 lg:px-8">
   <div className="mx-auto max-w-3xl text-center">
-    <h2 className="text-3xl font-bold text-gray-900 sm:text-4xl dark:text-white">
-      Trusted by eCommerce Businesses
+    <h2 className="text-3xl font-bold text-rose-600 sm:text-4xl dark:text-white">
+    Why Travelers Love Zuru Tours
     </h2>
 
     <p className="mt-4 text-gray-500 sm:text-xl dark:text-gray-400">
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione dolores laborum labore
-      provident impedit esse recusandae facere libero harum sequi.
+    Join thousands of satisfied adventurers who’ve trusted us to make their dream vacations a reality.
     </p>
   </div>
 
@@ -70,27 +73,27 @@ const Home = () => {
     <div className="flex flex-col px-4 py-8 text-center">
       <dt className="order-last text-lg font-medium text-gray-500 dark:text-gray-400">Total Sales</dt>
 
-      <dd className="text-4xl font-extrabold text-rose-600 md:text-5xl">$4.8m</dd>
+      <dd className="text-4xl font-extrabold text-rose-600 md:text-5xl">$4000</dd>
     </div>
 
     <div className="flex flex-col px-4 py-8 text-center">
       <dt className="order-last text-lg font-medium text-gray-500 dark:text-gray-400">
-        Official Addons
+      Rated by Our Customers
       </dt>
 
-      <dd className="text-4xl font-extrabold text-rose-600 md:text-5xl">24</dd>
+      <dd className="text-4xl font-extrabold text-rose-600 md:text-5xl">4.9/5 </dd>
     </div>
 
     <div className="flex flex-col px-4 py-8 text-center">
-      <dt className="order-last text-lg font-medium text-gray-500 dark:text-gray-400">Total Addons</dt>
+      <dt className="order-last text-lg font-medium text-gray-500 dark:text-gray-400">Years of Experience</dt>
 
-      <dd className="text-4xl font-extrabold text-rose-600 md:text-5xl">86</dd>
+      <dd className="text-4xl font-extrabold text-rose-600 md:text-5xl">10+</dd>
     </div>
 
     <div className="flex flex-col px-4 py-8 text-center">
-      <dt className="order-last text-lg font-medium text-gray-500 dark:text-gray-400">Downloads</dt>
+      <dt className="order-last text-lg font-medium text-gray-500 dark:text-gray-400">Happy Travelers</dt>
 
-      <dd className="text-4xl font-extrabold text-rose-600 md:text-5xl">86k</dd>
+      <dd className="text-4xl font-extrabold text-rose-600 md:text-5xl">10,000+ </dd>
     </div>
   </dl>
 </div>

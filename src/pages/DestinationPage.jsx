@@ -44,25 +44,13 @@ const DestinationPage = () => {
       ]
       );
 
-    
-    // useEffect(() => {
-    //     fetch('')
-    //     .then(res => {
-    //         if(!res.ok){
-    //             throw new Error('Failed to fetch data')
-    //         }
-    //     })
-    //     .then(data =>{
-    //         setDestination(data)
-    //     })
-    //     .catch((err) => {
-    //         console.error(err.message)
-    //     })
-    // })
 
     return (
     <section className="text-gray-600 body-font">
       <div class="container px-5 py-24 mx-auto">
+        <a href="/add_destination">
+        <button className="btn  btn-neutral">Add a new destination</button>
+        </a>
          <div className="destination">
          <Destination destinations={destinations}/>
          </div>
